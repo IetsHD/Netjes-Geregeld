@@ -25,5 +25,31 @@
   </main>
 
   <script src="app.js"></script>
+  <div id="cartOverlay" class="cart-overlay"></div>
+
+<aside id="cartPanel" class="cart-panel">
+  <div class="cart-header">
+    <div class="cart-icon">▣</div>
+    <div>
+      <h2>Winkelwagen</h2>
+      <p id="cartCount">0 items</p>
+    </div>
+    <button id="closeCart" class="close-cart">×</button>
+  </div>
+
+  <div id="cartContent" class="cart-content"></div>
+
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span>Totaal</span>
+      <strong id="cartTotal">€0</strong>
+    </div>
+
+    <div class="cart-actions">
+      <button id="clearCart" class="clear-btn">Leegmaken</button>
+      <button id="orderBtn" class="order-btn">Bestelling Plaatsen</button>
+    </div>
+  </div>
+</aside>
 </body>
 </html>

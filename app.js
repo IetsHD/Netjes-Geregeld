@@ -12,7 +12,16 @@ let cart = [];
 const categoriesEl = document.getElementById("categories");
 const productsEl = document.getElementById("products");
 const searchEl = document.getElementById("search");
+
 const cartBtn = document.querySelector(".cart-btn");
+const cartPanel = document.getElementById("cartPanel");
+const cartOverlay = document.getElementById("cartOverlay");
+const closeCart = document.getElementById("closeCart");
+const cartContent = document.getElementById("cartContent");
+const cartCount = document.getElementById("cartCount");
+const cartTotal = document.getElementById("cartTotal");
+const clearCart = document.getElementById("clearCart");
+const orderBtn = document.getElementById("orderBtn");
 
 async function loadProducts() {
   for (const category of categoryFiles) {
@@ -20,15 +29,13 @@ async function loadProducts() {
     const products = await response.json();
 
     products.forEach(product => {
-      allProducts.push({
-        ...product,
-        category: category.name
-      });
+      allProducts.push({ ...product, category: category.name });
     });
   }
 
   renderCategories();
   renderProducts();
+  renderCart();
 }
 
 function renderCategories() {
@@ -92,26 +99,41 @@ function renderProducts() {
           <span class="price">€${product.price}</span>
         </div>
 
-        <div class="add-area">
-          <select class="amount-select">
-            <option value="1">1x</option>
-            <option value="5">5x</option>
-            <option value="10">10x</option>
-            <option value="25">25x</option>
-            <option value="50">50x</option>
-            <option value="100">100x</option>
-          </select>
+        <div class="dropdown-add">
+          <button class="add-main">+ Toevoegen</button>
+          <button class="add-toggle">⌄</button>
 
-          <button class="add-btn">+ Toevoegen</button>
+          <div class="amount-menu">
+            <button data-amount="10">+10 toevoegen</button>
+            <button data-amount="25">+25 toevoegen</button>
+            <button data-amount="50">+50 toevoegen</button>
+            <button data-amount="100">+100 toevoegen</button>
+          </div>
         </div>
       `;
 
-      const select = card.querySelector(".amount-select");
-      const addBtn = card.querySelector(".add-btn");
+      const addMain = card.querySelector(".add-main");
+      const toggle = card.querySelector(".add-toggle");
+      const menu = card.querySelector(".amount-menu");
 
-      addBtn.onclick = () => {
-        addToCart(product, Number(select.value));
+      addMain.onclick = () => addToCart(product, 1);
+
+      toggle.onclick = event => {
+        event.stopPropagation();
+
+        document.querySelectorAll(".amount-menu.open").forEach(openMenu => {
+          if (openMenu !== menu) openMenu.classList.remove("open");
+        });
+
+        menu.classList.toggle("open");
       };
+
+      menu.querySelectorAll("button").forEach(button => {
+        button.onclick = () => {
+          addToCart(product, Number(button.dataset.amount));
+          menu.classList.remove("open");
+        };
+      });
 
       grid.appendChild(card);
     });
@@ -135,36 +157,86 @@ function addToCart(product, amount) {
     });
   }
 
-  updateCartButton();
+  renderCart();
 }
 
-function updateCartButton() {
-  const totalAmount = cart.reduce((sum, item) => sum + item.amount, 0);
-  cartBtn.textContent = `Winkelwagen (${totalAmount})`;
-}
+function renderCart() {
+  const totalItems = cart.reduce((sum, item) => sum + item.amount, 0);
+  const totalPrice = cart.reduce((sum, item) => sum + item.amount * item.price, 0);
 
-function showCart() {
+  cartBtn.textContent = `Winkelwagen (${totalItems})`;
+  cartCount.textContent = `${totalItems} items`;
+  cartTotal.textContent = `€${totalPrice}`;
+
+  cartContent.innerHTML = "";
+
   if (cart.length === 0) {
-    alert("Je winkelwagen is leeg.");
+    cartContent.innerHTML = `
+      <div class="empty-cart">
+        <div class="empty-icon">▢</div>
+        <p>Je winkelwagen is leeg</p>
+      </div>
+    `;
     return;
   }
 
-  let message = "Winkelwagen:\n\n";
-  let totalPrice = 0;
-
   cart.forEach(item => {
-    const itemTotal = item.price * item.amount;
-    totalPrice += itemTotal;
+    const row = document.createElement("div");
+    row.className = "cart-item";
 
-    message += `${item.amount}x ${item.name} - €${itemTotal}\n`;
+    row.innerHTML = `
+      <div>
+        <strong>${item.name}</strong>
+        <p>${item.amount}x · €${item.price} per stuk</p>
+      </div>
+
+      <div class="cart-item-right">
+        <strong>€${item.amount * item.price}</strong>
+        <button class="remove-item">×</button>
+      </div>
+    `;
+
+    row.querySelector(".remove-item").onclick = () => {
+      cart = cart.filter(cartItem => cartItem.name !== item.name);
+      renderCart();
+    };
+
+    cartContent.appendChild(row);
   });
-
-  message += `\nTotaal: €${totalPrice}`;
-
-  alert(message);
 }
 
+function openCart() {
+  cartPanel.classList.add("open");
+  cartOverlay.classList.add("open");
+}
+
+function closeCartPanel() {
+  cartPanel.classList.remove("open");
+  cartOverlay.classList.remove("open");
+}
+
+document.addEventListener("click", () => {
+  document.querySelectorAll(".amount-menu.open").forEach(menu => {
+    menu.classList.remove("open");
+  });
+});
+
 searchEl.addEventListener("input", renderProducts);
-cartBtn.addEventListener("click", showCart);
+cartBtn.addEventListener("click", openCart);
+closeCart.addEventListener("click", closeCartPanel);
+cartOverlay.addEventListener("click", closeCartPanel);
+
+clearCart.addEventListener("click", () => {
+  cart = [];
+  renderCart();
+});
+
+orderBtn.addEventListener("click", () => {
+  if (cart.length === 0) return;
+  alert("Bestelling geplaatst!");
+  cart = [];
+  renderCart();
+  closeCartPanel();
+});
 
 loadProducts();
