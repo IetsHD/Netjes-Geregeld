@@ -1,6 +1,6 @@
 [
-  { "name": "Aardbei", "price": 10 },
-  { "name": "Appel", "price": 10 },
-  { "name": "Ananas", "price": 10 },
-  { "name": "Sinaasappel", "price": 10 }
+  { "name": "Aardbei", "category": "Fruit Pluk", "price": 10 },
+  { "name": "Appel", "category": "Fruit Pluk", "price": 10 },
+  { "name": "Ananas", "category": "Fruit Pluk", "price": 10 },
+  { "name": "Sinaasappel", "category": "Fruit Pluk", "price": 10 }
 ]

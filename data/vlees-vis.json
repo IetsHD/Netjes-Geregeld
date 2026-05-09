@@ -1,6 +1,6 @@
 [
-  { "name": "Kip", "price": 10 },
-  { "name": "Varken", "price": 10 },
-  { "name": "Rood vlees", "price": 10 },
-  { "name": "Kalkoen", "price": 10 }
+  { "name": "Kip", "category": "Vlees/Vis", "price": 10 },
+  { "name": "Varken", "category": "Vlees/Vis", "price": 10 },
+  { "name": "Rood vlees", "category": "Vlees/Vis", "price": 10 },
+  { "name": "Kalkoen", "category": "Vlees/Vis", "price": 10 }
 ]

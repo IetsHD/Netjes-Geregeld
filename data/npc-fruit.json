@@ -1,8 +1,11 @@
 [
-  { "name": "Watermeloen", "price": 5 },
-  { "name": "Peer", "price": 5 },
-  { "name": "Citroen", "price": 5 },
-  { "name": "Banaan", "price": 5 },
-  { "name": "Perzik", "price": 5 },
-  { "name": "Mango", "price": 5 }
+  { "name": "Watermeloen", "category": "NPC Fruit", "price": 5 },
+  { "name": "Peer", "category": "NPC Fruit", "price": 5 },
+  { "name": "Citroen", "category": "NPC Fruit", "price": 5 },
+  { "name": "Banaan", "category": "NPC Fruit", "price": 5 },
+  { "name": "Perzik", "category": "NPC Fruit", "price": 5 },
+  { "name": "Mango", "category": "NPC Fruit", "price": 5 },
+  { "name": "Frambozen", "category": "NPC Fruit", "price": 5 },
+  { "name": "Blueberries", "category": "NPC Fruit", "price": 5 },
+  { "name": "Pasionfruit", "category": "NPC Fruit", "price": 5 }
 ]
