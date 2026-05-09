@@ -1,54 +1,54 @@
 [
   {
-    "id": 1,
+    "id": 24,
     "name": "Banaan",
     "category": "NPC Fruit",
     "price": 5
   },
   {
-    "id": 2,
+    "id": 25,
     "name": "Blueberries",
     "category": "NPC Fruit",
     "price": 5
   },
   {
-    "id": 3,
+    "id": 26,
     "name": "Citroen",
     "category": "NPC Fruit",
     "price": 5
   },
   {
-    "id": 4,
+    "id": 27,
     "name": "Frambozen",
     "category": "NPC Fruit",
     "price": 5
   },
   {
-    "id": 5,
+    "id": 28,
     "name": "Mango",
     "category": "NPC Fruit",
     "price": 5
   },
   {
-    "id": 6,
+    "id": 29,
     "name": "Pasionfruit",
     "category": "NPC Fruit",
     "price": 5
   },
   {
-    "id": 7,
+    "id": 30,
     "name": "Peer",
     "category": "NPC Fruit",
     "price": 5
   },
   {
-    "id": 8,
+    "id": 31,
     "name": "Perzik",
     "category": "NPC Fruit",
     "price": 5
   },
   {
-    "id": 9,
+    "id": 32,
     "name": "Watermeloen",
     "category": "NPC Fruit",
     "price": 5
