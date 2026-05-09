@@ -54,12 +54,10 @@ async function init() {
 async function loadProducts() {
   const categoryFiles = [
     "data/npc-fruit.json",
-    "data/npc-groenten.json",
     "data/fruit-pluk.json",
-    "data/groenten-pluk.json",
     "data/vlees-vis.json",
+    "data/groenten-pluk.json",
     "data/drank.json",
-    "data/overig.json",
     "data/zuivel-brood.json",
     "data/vis.json",
     "data/pasta.json"
