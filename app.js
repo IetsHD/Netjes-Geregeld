@@ -61,8 +61,7 @@ async function loadProducts() {
     "data/drank.json",
     "data/overig.json",
     "data/zuivel-brood.json",
-    "data/vis.json",
-    "data/spices.json"
+    "data/vis.json"
   ];
 
   try {
