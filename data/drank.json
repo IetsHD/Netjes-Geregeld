@@ -57,7 +57,7 @@
     "id": 10,
     "name": "Tonic",
     "category": "Drank",
-    "price": 3
+    "price": 5
   },
    {
     "id": 11,
@@ -69,7 +69,7 @@
     "id": 12,
     "name": "Water",
     "category": "Drank",
-    "price": 3
+    "price": 5
   },
    {
     "id": 13,
