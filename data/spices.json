@@ -57,7 +57,7 @@
     "id": 74,
     "name": "Lockpick Olie",
     "category": "Spices",
-    "price": 3
+    "price": 50
   },
    {
     "id": 75,
@@ -69,7 +69,7 @@
     "id": 76,
     "name": "Mijnwerkers Kruiden",
     "category": "Spices",
-    "price": 3
+    "price": 50
   },
    {
     "id": 77,
