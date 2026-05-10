@@ -11,13 +11,7 @@ const summaryItems = document.getElementById("summaryItems");
 const summaryTotal = document.getElementById("summaryTotal");
 const clearCartBtn = document.getElementById("clearCartBtn");
 
-const newProductBtn = document.getElementById("newProductBtn");
-const productModal = document.getElementById("productModal");
-const closeProductModalBtn = document.getElementById("closeProductModalBtn");
-const productForm = document.getElementById("productForm");
-const newProductName = document.getElementById("newProductName");
-const newProductCategory = document.getElementById("newProductCategory");
-const newProductPrice = document.getElementById("newProductPrice");
+const resetQuantitiesBtn = document.getElementById("resetQuantitiesBtn");
 
 let products = [];
 let customProducts = loadCustomProducts();
@@ -41,10 +35,7 @@ async function init() {
   cartScreen.addEventListener("click", handleCartBackdropClick);
   clearCartBtn.addEventListener("click", clearCart);
 
-  newProductBtn.addEventListener("click", openProductModal);
-  closeProductModalBtn.addEventListener("click", closeProductModal);
-  productModal.addEventListener("click", handleProductModalBackdropClick);
-  productForm.addEventListener("submit", handleNewProduct);
+  resetQuantitiesBtn.addEventListener("click", resetQuantityInputs);
 
 }
 
@@ -162,13 +153,13 @@ document.querySelectorAll(".add-button").forEach(button => {
     const input = document.querySelector(`.quantity-input[data-id="${productId}"]`);
     const quantity = Number(input.value);
 
-    if (!Number.isInteger(quantity) || quantity < 1) {
-      input.value = 1;
-      addToCart(productId, 1);
+    if (!Number.isInteger(quantity) || quantity <= 0) {
+      input.value = 0;
       return;
     }
 
     addToCart(productId, quantity);
+    input.value = 0;
   });
 });
 }
@@ -196,9 +187,9 @@ function createProductCard(product) {
         <input
           class="quantity-input"
           type="number"
-          min="1"
+          min="0"
           step="1"
-          value="1"
+          value="0"
           aria-label="Aantal voor ${escapeHtml(product.name)}"
           data-id="${product.id}"
         />
@@ -376,49 +367,10 @@ function handleCartBackdropClick(event) {
   }
 }
 
-function openProductModal() {
-  productModal.classList.add("open");
-  productModal.setAttribute("aria-hidden", "false");
-  newProductName.focus();
-}
-
-function closeProductModal() {
-  productModal.classList.remove("open");
-  productModal.setAttribute("aria-hidden", "true");
-  productForm.reset();
-}
-
-function handleProductModalBackdropClick(event) {
-  if (event.target === productModal) {
-    closeProductModal();
-  }
-}
-
-function handleNewProduct(event) {
-  event.preventDefault();
-
-  const name = newProductName.value.trim();
-  const category = newProductCategory.value.trim();
-  const price = Number(newProductPrice.value);
-
-  if (!name || !category || Number.isNaN(price)) {
-    return;
-  }
-
-  const newProduct = {
-    id: Date.now(),
-    name,
-    category,
-    price
-  };
-
-  customProducts.push(newProduct);
-  products.push(newProduct);
-
-  saveCustomProducts();
-  renderFilters();
-  renderProducts();
-  closeProductModal();
+function resetQuantityInputs() {
+  document.querySelectorAll(".quantity-input").forEach(input => {
+    input.value = 0;
+  });
 }
 
 function groupByCategory(items) {

@@ -21,9 +21,9 @@
     </div>
 
     <div class="top-actions">
-      <button class="secondary-button" id="newProductBtn">
-        <span>＋</span>
-        Nieuw Product
+      <button class="secondary-button" id="resetQuantitiesBtn">
+      <span>↺</span>
+        Aantallen resetten
       </button>
 
       <button class="cart-button" id="openCartBtn">
@@ -83,37 +83,6 @@
         </button>
       </div>
     </div>
-  </aside>
-
-  <!-- Nieuw product modal -->
-  <aside class="modal-screen" id="productModal" aria-hidden="true">
-    <form class="modal-panel" id="productForm">
-      <div class="modal-header">
-        <h2>Nieuw Product</h2>
-        <button type="button" class="icon-button" id="closeProductModalBtn">
-          ✕
-        </button>
-      </div>
-
-      <label>
-        Productnaam
-        <input type="text" id="newProductName" required placeholder="Bijvoorbeeld: Druiven" />
-      </label>
-
-      <label>
-        Categorie
-        <input type="text" id="newProductCategory" required placeholder="Bijvoorbeeld: NPC Fruit" />
-      </label>
-
-      <label>
-        Prijs
-        <input type="number" id="newProductPrice" required min="0" step="1" placeholder="5" />
-      </label>
-
-      <button type="submit" class="cart-button full-width">
-        Product toevoegen
-      </button>
-    </form>
   </aside>
 
   <script src="app.js"></script>
