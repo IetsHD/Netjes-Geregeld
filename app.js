@@ -196,7 +196,6 @@ function createProductCard(product) {
 
         <button class="add-button" data-id="${product.id}">
           <span>＋</span>
-          Toevoegen
         </button>
       </div>
     </article>
