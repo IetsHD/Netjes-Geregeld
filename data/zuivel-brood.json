@@ -52,5 +52,11 @@
     "name": "Witte Bollen",
     "category": "Zuivel/Brood",
     "price": 5
+  },
+  {
+    "id": 104,
+    "name": "Cheddar Kaas",
+    "category": "Zuivel/Brood",
+    "price": 5
   }
 ]
