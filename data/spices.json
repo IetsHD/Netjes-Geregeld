@@ -1,139 +1,139 @@
 [
   {
     "id": 65,
-    "name": "Ambachts Kruiden",
+    "name": "Ambachts Kruiden-Boathouse",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 66,
-    "name": "Botanische Voeding",
+    "name": "Botanische Voeding - UWU",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 67,
-    "name": "Chemische Reagens",
+    "name": "Chemische Reagens - Mexicaan",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 68,
-    "name": "Coureur Kruiden",
+    "name": "Coureur Kruiden - Boathouse",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 69,
-    "name": "Crimineel Extract",
+    "name": "Crimineel Extract - Jachthut",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 70,
-    "name": "Duik Zout",
+    "name": "Duik Zout - Miso",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 71,
-    "name": "Houthakkers Sap",
+    "name": "Houthakkers Sap - Boathouse",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 72,
-    "name": "Inbrekers Specerijen",
+    "name": "Inbrekers Specerijen - Ponmdcafe",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 73,
-    "name": "Kluiskrakers Kruidemix",
+    "name": "Kluiskrakers Kruidemix - Mexicaan",
     "category": "Spices",
     "price": 50
   },
    {
     "id": 74,
-    "name": "Lockpick Olie",
+    "name": "Lockpick Olie - Burgershot",
     "category": "Spices",
     "price": 50
   },
    {
     "id": 75,
-    "name": "Long Kruiden",
+    "name": "Long Kruiden - Pondcafe",
     "category": "Spices",
     "price": 50
   },
    {
     "id": 76,
-    "name": "Mijnwerkers Kruiden",
+    "name": "Mijnwerkers Kruiden - Jachthut",
     "category": "Spices",
     "price": 50
   },
    {
     "id": 77,
-    "name": "Mysterie Kruiden",
+    "name": "Mysterie Kruiden - Pubs",
     "category": "Spices",
     "price": 50
   },
    {
     "id": 78,
-    "name": "Overval Kruiden",
+    "name": "Overval Kruiden - Donut",
     "category": "Spices",
     "price": 50
   },
    {
     "id": 79,
-    "name": "Scherpschutter Mix",
+    "name": "Scherpschutter Mix - Miso",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 80,
-    "name": "Skimming Kruiden",
+    "name": "Skimming Kruiden - Burgershot",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 81,
-    "name": "Sloop Kruiden",
+    "name": "Sloop Kruiden - Jachthut",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 82,
-    "name": "Speurneus Extract",
+    "name": "Speurneus Extract - Donut",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 83,
-    "name": "Spierversterker",
+    "name": "Spierversterker - Donut",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 84,
-    "name": "Straat Aroma",
+    "name": "Straat Aroma - Burgershot",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 85,
-    "name": "Uithoudings Suiker",
+    "name": "Uithoudings Suiker - UWU",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 86,
-    "name": "Vissers Lokmiddel",
+    "name": "Vissers Lokmiddel - Pondcafe",
     "category": "Spices",
     "price": 50
   },
   {
     "id": 87,
-    "name": "Witwas Poeder",
+    "name": "Witwas Poeder - Miso",
     "category": "Spices",
     "price": 50
   }
