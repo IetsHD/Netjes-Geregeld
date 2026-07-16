@@ -28,7 +28,7 @@
     "id": 37,
     "name": "Komkommer",
     "category": "NPC Groenten",
-    "price": 5
+    "price": 40
   },
   {
     "id": 39,
@@ -46,18 +46,12 @@
     "id": 41,
     "name": "Sla",
     "category": "NPC Groenten",
-    "price": 5
+    "price": 40
   },
   {
     "id": 42,
     "name": "Ui",
     "category": "NPC Groenten",
-    "price": 5
-  },
-  {
-    "id": 43,
-    "name": "Ui",
-    "category": "NPC Groenten",
-    "price": 5
+    "price": 40
   }
 ]

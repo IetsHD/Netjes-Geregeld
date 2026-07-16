@@ -15,7 +15,7 @@
     "id": 46,
     "name": "Cacao poeder",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 47,
@@ -51,7 +51,7 @@
     "id": 52,
     "name": "Koffiebonen",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
    {
     "id": 53,
@@ -87,13 +87,13 @@
     "id": 58,
     "name": "Tarwe",
     "category": "Overig",
-    "price": 5
+    "price": 40
   },
   {
     "id": 59,
     "name": "Thee",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 60,
@@ -124,5 +124,11 @@
     "name": "BBQ Saus",
     "category": "Overig",
     "price": 5
-  }
+  },
+  {
+    "id": 65,
+    "name": "Soya",
+    "category": "Overig",
+    "price": 40
+  }  
 ]

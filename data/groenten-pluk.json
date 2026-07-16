@@ -3,24 +3,24 @@
     "id": 20,
     "name": "Aardappelen",
     "category": "Groenten Pluk",
-    "price": 10
+    "price": 40
   },
   {
     "id": 21,
     "name": "Pompoen",
     "category": "Groenten Pluk",
-    "price": 10
+    "price": 40
   },
   {
     "id": 22,
     "name": "Tomaat",
     "category": "Groenten Pluk",
-    "price": 10
+    "price": 40
   },
   {
     "id": 23,
     "name": "Wortel",
     "category": "Groenten Pluk",
-    "price": 10
+    "price": 40
   }
 ]

@@ -3,7 +3,7 @@
     "id": 24,
     "name": "Banaan",
     "category": "NPC Fruit",
-    "price": 5
+    "price": 40
   },
   {
     "id": 25,
@@ -15,7 +15,7 @@
     "id": 26,
     "name": "Citroen",
     "category": "NPC Fruit",
-    "price": 5
+    "price": 40
   },
   {
     "id": 27,
@@ -27,7 +27,7 @@
     "id": 28,
     "name": "Mango",
     "category": "NPC Fruit",
-    "price": 5
+    "price": 40
   },
   {
     "id": 29,
@@ -39,18 +39,18 @@
     "id": 30,
     "name": "Peer",
     "category": "NPC Fruit",
-    "price": 5
+    "price": 40
   },
   {
     "id": 31,
     "name": "Perzik",
     "category": "NPC Fruit",
-    "price": 5
+    "price": 40
   },
   {
     "id": 32,
     "name": "Watermeloen",
     "category": "NPC Fruit",
-    "price": 5
+    "price": 40
   }
 ]
