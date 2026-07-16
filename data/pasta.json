@@ -3,24 +3,24 @@
     "id": 63,
     "name": "Fusilli Pasta",
     "category": "Pasta",
-    "price": 7
+    "price": 8
   },
   {
     "id": 64,
     "name": "Macaroni",
     "category": "Pasta",
-    "price": 7
+    "price": 8
   },
   {
     "id": 104,
     "name": "Penne Pasta",
     "category": "Pasta",
-    "price": 7
+    "price": 8
   },
   {
     "id": 105,
     "name": "Witte Rijst",
     "category": "Pasta",
-    "price": 7
+    "price": 8
   }
 ]

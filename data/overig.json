@@ -3,13 +3,13 @@
     "id": 44,
     "name": "Azijn",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 45,
     "name": "Bloem",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 46,
@@ -21,31 +21,31 @@
     "id": 47,
     "name": "Cashewnoten",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 48,
     "name": "Citroensap",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 49,
     "name": "IJsblokje",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 50,
     "name": "Karamel Siroop",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 51,
     "name": "Kikkererwten",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 52,
@@ -57,31 +57,31 @@
     "id": 53,
     "name": "Olie",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
    {
     "id": 54,
     "name": "Ongebakken Friet",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
    {
     "id": 55,
     "name": "Pannenkoeken Meel",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
    {
     "id": 56,
     "name": "Soja saus",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
    {
     "id": 57,
     "name": "Suiker",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
    {
     "id": 58,
@@ -99,19 +99,19 @@
     "id": 60,
     "name": "Tomaten Saus",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 61,
     "name": "Vanille extract",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 62,
     "name": "Zout",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 63,
@@ -123,7 +123,7 @@
     "id": 64,
     "name": "BBQ Saus",
     "category": "Overig",
-    "price": 5
+    "price": 8
   },
   {
     "id": 65,

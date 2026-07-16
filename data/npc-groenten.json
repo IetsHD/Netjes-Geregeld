@@ -3,26 +3,26 @@
     "id": 33,
     "name": "Basilicum",
     "category": "NPC Groenten",
-    "price": 5
+    "price": 8
   },
   {
     "id": 34,
 
     "name": "Broccoli",
     "category": "NPC Groenten",
-    "price": 5
+    "price": 8
   },
   {
     "id": 35,
     "name": "Champignons",
     "category": "NPC Groenten",
-    "price": 5
+    "price": 8
   },
   {
     "id": 36,
     "name": "Knoflook",
     "category": "NPC Groenten",
-    "price": 5
+    "price": 8
   },
   {
     "id": 37,
@@ -34,13 +34,13 @@
     "id": 39,
     "name": "Lente-Ui",
     "category": "NPC Groenten",
-    "price": 5
+    "price": 8
   },
   {
     "id": 40,
     "name": "Mais",
     "category": "NPC Groenten",
-    "price": 5
+    "price": 8
   },
   {
     "id": 41,
