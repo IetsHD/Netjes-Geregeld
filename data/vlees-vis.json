@@ -3,24 +3,24 @@
     "id": 91,
     "name": "Kalkoen",
     "category": "Vlees/Vis",
-    "price": 40
+    "price": 25
   },
   {
     "id": 92,
     "name": "Kip",
     "category": "Vlees/Vis",
-    "price": 40
+    "price": 25
   },
   {
     "id": 93,
     "name": "Rood vlees",
     "category": "Vlees/Vis",
-    "price": 40
+    "price": 25
   },
   {
     "id": 94,
     "name": "Varken (Spek)",
     "category": "Vlees/Vis",
-    "price": 40
+    "price": 25
   }
 ]

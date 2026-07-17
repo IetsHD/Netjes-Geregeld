@@ -3,90 +3,90 @@
     "id": 1,
     "name": "Bier",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
   {
     "id": 2,
     "name": "Bruine Rum",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
   {
     "id": 3,
     "name": "Champagne",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
   {
     "id": 4,
     "name": "Cola",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
   {
     "id": 5,
     "name": "Energy drink",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
   {
     "id": 6,
     "name": "Gin",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
   {
     "id": 7,
     "name": "Rode Wijn",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
   {
     "id": 8,
     "name": "Sprunk",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
   {
     "id": 9,
     "name": "Tequila",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
    {
     "id": 10,
     "name": "Tonic",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
    {
     "id": 11,
     "name": "Vodka",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
    {
     "id": 12,
     "name": "Water",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
    {
     "id": 13,
     "name": "Whiskey",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
    {
     "id": 14,
     "name": "Witte Rum",
     "category": "Drank",
-    "price": 10
+    "price": 5
   },
    {
     "id": 15,
     "name": "Witte Wijn",
     "category": "Drank",
-    "price": 10
+    "price": 5
   }
 ]

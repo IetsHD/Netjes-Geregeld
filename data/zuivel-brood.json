@@ -3,13 +3,13 @@
     "id": 95,
     "name": "Boter",
     "category": "Zuivel/Brood",
-    "price": 8
+    "price": 5
   },
   {
     "id": 96,
     "name": "Hamburger broodje",
     "category": "Zuivel/Brood",
-    "price": 8
+    "price": 5
   },
   {
     "id": 97,
@@ -21,42 +21,42 @@
     "id": 98,
     "name": "Parmezaanse Kaas",
     "category": "Zuivel/Brood",
-    "price": 8
+    "price": 5
   },
   {
     "id": 99,
     "name": "Room",
     "category": "Zuivel/Brood",
-    "price": 8
+    "price": 5
   },
   {
     "id": 100,
     "name": "Slagroom",
     "category": "Zuivel/Brood",
-    "price": 8
+    "price": 5
   },
   {
     "id": 101,
     "name": "Vegetarische Kaas",
     "category": "Zuivel/Brood",
-    "price": 8
+    "price": 5
   },
   {
     "id": 102,
     "name": "Verse Mozzarella",
     "category": "Zuivel/Brood",
-    "price": 8
+    "price": 5
   },
   {
     "id": 103,
     "name": "Witte Bollen",
     "category": "Zuivel/Brood",
-    "price": 8
+    "price": 5
   },
   {
     "id": 104,
     "name": "Cheddar Kaas",
     "category": "Zuivel/Brood",
-    "price": 8
+    "price": 5
   }
 ]
